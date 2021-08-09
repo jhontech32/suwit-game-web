@@ -55,6 +55,11 @@ ul {
     padding: 18 0 0 10;
 }
 
+.txtHasil {
+    color: #ffff;
+    font-family: sans-serif;
+}
+
 .navigationMark {
     color: #724C21;
     font-weight: bold;
@@ -90,11 +95,13 @@ ul {
   }
 
   .txtPlayer1 {
+      color: #fff;
       font-family: sans-serif;
   }
 
   .txtCOM {
-      font-family: sans-serif;
+        color: #fff;
+        font-family: sans-serif;
   }
 
   #footer {

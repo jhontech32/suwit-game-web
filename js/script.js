@@ -9,6 +9,9 @@ function getChoosenByComp() {
 
 // Get possibility PLAYER VS COM
 function getPossibility(comp, player) {
+    console.log('comp', comp)
+    console.log('player', player)
+
       if( player === comp ) return 'SERI !';
       if( player === 'batu' ) return ( comp === 'gunting' ) ? 'Kamu menang !' : 'Kamu kalah !';
       if( player === 'gunting' ) return ( comp === 'batu' ) ? 'Kamu kalah !' : 'Kamu menang !';
